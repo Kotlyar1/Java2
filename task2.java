@@ -15,7 +15,7 @@ public class task2 {
             /*переложить N-1 кольцо с исходного на временный стержень
             переложить 1 кольцо с исходного на конечный стержень
             переложить N-1 кольцо с временного на конечный стержень
-    Hanoi(int n, char from, char to, char temp)
+        Hanoi(int n, char from, char to, char temp)
                         A         B        C
              Hanoi(n-1, from, temp, to);
              cout << from << "->" << to << endl;
